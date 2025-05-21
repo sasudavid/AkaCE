@@ -27,7 +27,6 @@ AkaCE/
 │   ├── emotions.csv  # Emotion labels per utterance
 │   ├── prosody.csv   # Word-level prosodic prominence annotations
 │   └── metadata.csv  # Utterance IDs, timestamps, speaker info
-├── stats/           # Basic statistics and summaries
 └── README.md        # Dataset documentation
 ```
 </pre>
@@ -49,7 +48,7 @@ Each utterance is labeled with one of the following emotions:
 
 - **Text:** Human-transcribed Akan utterances
 - **Audio:** Speech clips with a 16 kHz sampling rate
-- **Visual:** Frame-level or face-extracted video features
+- **Video:** Video clips from movies used
 - **Prosody:** Binary labels indicating prosodic prominence (1 = prominent, 0 = not)
 
 ## Annotation Process
@@ -91,11 +90,6 @@ AkaCE supports research in:
 - Low-resource language modeling
 - Prosody-aware neural models
 - Multimodal representation learning
-
-## Download
-
-📂 [Anonymous Link for ACL Review](https://anonymous.4open.science/r/Akan-Cinematic-Emotion-A328)  
-(Will be updated post-publication)
 
 ## Citation
 
