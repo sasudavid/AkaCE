@@ -107,9 +107,3 @@ License
 
 This dataset is released for non-commercial research purposes only. Please refer to the LICENSE.txt for more details.
 
-Acknowledgements
-
-This work was supported by:
-	•	The NSF AI Institute for Artificial and Natural Intelligence (ARNI)
-	•	Columbia University 2025 Research Project
-	•	The Defense Advanced Research Projects Agency (DARPA), CCU Program
