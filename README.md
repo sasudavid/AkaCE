@@ -15,21 +15,6 @@ The Akan Cinematic Emotions (AkaCE) dataset is the **first multimodal speech emo
 - **Seven emotion labels** (Sadness, Fear, Anger, Surprise, Disgust, Happy, Neutral)
 - **Word-level prosodic prominence annotations** — making it the first **prosodically annotated dataset** for any African language
 
-<pre>
-### Dataset Structure
-
-```
-AkaCE/
-├── audio/           # Audio clips segmented by utterance
-├── video/           # Video clips or frame sequences per utterance
-├── transcripts/     # Manual transcriptions with speaker tags
-├── annotations/
-│   ├── emotions.csv  # Emotion labels per utterance
-│   ├── prosody.csv   # Word-level prosodic prominence annotations
-│   └── metadata.csv  # Utterance IDs, timestamps, speaker info
-└── README.md        # Dataset documentation
-```
-</pre>
 
 
 ## Emotion Categories
