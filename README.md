@@ -43,17 +43,25 @@ Each utterance is labeled with one of the following emotions:
 - **Prosody:** Annotated using a binary scheme following guidelines adapted from prior phonetic work
 - **Validation:** Majority voting with expert adjudication for disagreements
 
-## Statistics
+## General Statistics of the AkaCE Dataset
 
-| Metric                          | Value       |
-|------------------------------- |-------------|
-| Total dialogues                 | 385         |
-| Total utterances                | 6,162       |
-| Unique speakers                 | 308         |
-| Gender balance (M/F)           | 155 / 153   |
-| Avg. words per utterance       | 19          |
-| Avg. utterance length (sec)    | 6.7         |
-| Prominent words (binary tags)  | 37,314      |
+| **General Statistics**                           | **Values** |
+|--------------------------------------------------|------------|
+| Total number of seconds                          | 87,441     |
+| Avg. number of seconds per movie                 | 4,163.4    |
+| Total number of movies                           | 21         |
+| Total number of dialogs                          | 385        |
+| Total number of words                            | 117,305    |
+| Total number of utterances                       | 6,162      |
+| Total number of turns                            | 4,477      |
+| Number of prominence words                       | 37,314     |
+| Number of non-prominence words                   | 79,991     |
+| Average number of turns per dialog               | 11.62      |
+| Average number of utterances per dialog          | 16         |
+| Average number of words per dialog               | 305        |
+| Average utterance length in seconds              | 6.701      |
+| Average number of words per utterance            | 19         |
+| Average duration per dialog in seconds           | 227.1      |
 
 ## Benchmark Results
 
